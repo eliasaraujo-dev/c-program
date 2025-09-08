@@ -3,9 +3,9 @@
 
 // defines the structure for the stack
 struct Stack {
-        int top;            // index of the top element
-        int capacity        // maximum capacity of the stack
-        float *elements     // pointer to the array of elements
+        int top;             // index of the top element
+        int capacity;        // maximum capacity of the stack
+        float *elements;     // pointer to the array of elements
 };
 
 // initializes a stack with a given capacity
@@ -62,7 +62,7 @@ int main() {
                 printf("\n--- MENU ---\n");
                 printf("1- Push\n");
                 printf("2- Pop\n");
-                printf("3- Peeek\n");
+                printf("3- Peek\n");
                 printf("4- Exit\n");
                 printf("\nEnter your option: ");
                 scanf("%d", &option);  // corrected the format specifier
